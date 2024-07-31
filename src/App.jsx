@@ -19,6 +19,7 @@ import office2 from './Component/pics/destinationoffice2.png';
 import office3 from './Component/pics/destinationoffice3.png';
 import office4 from './Component/pics/destinationoffice4.png';
 import Splash from './Component/Splash.jsx';
+import Student from './Component/Student.jsx';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -58,11 +59,12 @@ function App() {
         <Route path='bs' element={<Box2 title="BS" ctr1="Australia" ctr2="Italy" ctr3="Finland" />}/>
         <Route path='apply' element={ <Apply />}/>
         <Route path='event' element={ <Events />}/>
+        <Route path='student' element={ <Student />}/>
         <Route path='destination' element={ <Destination />}>
-          <Route path='ofc1' element={<Box phone="92-309-2480468" email="eduriteconsulting1@gmail.com" location="lhr" pic={office1}/>}/>
+          {/* <Route path='ofc1' element={<Box phone="92-309-2480468" email="eduriteconsulting1@gmail.com" location="lhr" pic={office1}/>}/>
           <Route path='ofc2' element={<Box phone="92-341-2074305" email="eduriteconsulting2@gmail.com" location="isb" pic={office2}/>}/>
           <Route path='ofc3' element={<Box phone="92-300-1488995" email="eduriteconsulting3@gmail.com" location="Office # 10, 2nd Floor, Road, Lahore" pic={office3}/>}/>
-          <Route path='ofc4' element={<Box phone="92-300-2488996" email="eduriteconsulting4@gmail.com" location="Office # 10, 2nd Floor, Road, Lahore" pic={office4}/>}/>
+          <Route path='ofc4' element={<Box phone="92-300-2488996" email="eduriteconsulting4@gmail.com" location="Office # 10, 2nd Floor, Road, Lahore" pic={office4}/>}/> */}
         </Route>
       </Routes>
       <Footer />

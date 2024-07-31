@@ -4,7 +4,7 @@ import docPayment2pic from './pics/doc_payment_2.png'
 import approval3pic from './pics/approval_3.png'
 export default function ServicesStep() {
   return (
-    <div>
+    <div className='pb-4'>
       <p className='text-[0.85rem] text-red-600 font-semibold text-center mt-5'>PROCESS OVERVIEW</p>
       <p className='text-[2rem] font-semibold mt-[0.1rem] tracking-wide text-center'>Unforgettable Getaways Escaping Routine</p>
     <div className='mt-10  flex gap-12 justify-center'>

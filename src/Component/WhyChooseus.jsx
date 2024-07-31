@@ -19,7 +19,7 @@ export default function WhyChooseus() {
         <img src={growingGraph} alt="" className='h-[3.3rem]' />
             <div>
                 <p className='text-[1.05rem] font-semibold mt-[-0.7rem]'>Real Time Status</p>
-                <p className='w-[21rem] text-gray-800 tracking-tight mt-1 text-[0.87rem]'>By dealing with data, select tools that help you automate time-consuming processes.</p>
+                <p className='w-[21rem] text-gray-800 tracking-tight mt-1 text-[0.87rem]'>Real-time updates on applications, visa processes, and admissions for seamless student support</p>
             </div>
         </div>
         {/* ----------------------------2------------------------------- */}
@@ -27,7 +27,7 @@ export default function WhyChooseus() {
         <img src={hndshk} alt="" className='h-[2rem]' />
             <div>
                 <p className='text-[1.05rem] font-semibold mt-[-0.7rem]'>Experience Expert Team</p>
-                <p className='w-[21rem] text-gray-800 tracking-tight mt-1 text-[0.87rem]'>By dealing with data, select tools that help you automate time-consuming processes.</p>
+                <p className='w-[21rem] text-gray-800 tracking-tight mt-1 text-[0.87rem]'>Experienced team of experts dedicated to guiding you through every step of studying abroad</p>
             </div>
         </div>
         {/* ----------------------------3------------------------------- */}
@@ -35,7 +35,7 @@ export default function WhyChooseus() {
         <img src={chat} alt="" className='h-[2rem]' />
             <div>
                 <p className='text-[1.05rem] font-semibold mt-[-0.7rem]'>Live Chat With Our Team</p>
-                <p className='w-[21rem] text-gray-800 tracking-tight mt-1 text-[0.87rem]'>By dealing with data, select tools that help you automate time-consuming processes.</p>
+                <p className='w-[21rem] text-gray-800 tracking-tight mt-1 text-[0.87rem]'>Connect instantly with our team via live chat for expert guidance and support</p>
             </div>
         </div>
         {/* ----------------------------4------------------------------- */}
@@ -44,7 +44,7 @@ export default function WhyChooseus() {
             <div>
                 <p className='text-[1.05rem] font-semibold mt-[-0.7rem]'>
                 Fast Processing Guaranty</p>
-                <p className='w-[21rem] text-gray-800 tracking-tight mt-1 text-[0.87rem]'>By dealing with data, select tools that help you automate time-consuming processes.</p>
+                <p className='w-[21rem] text-gray-800 tracking-tight mt-1 text-[0.87rem]'>Guaranteed fast processing for applications and visas, ensuring a smooth study abroad experience</p>
             </div>
         </div>
       </div>

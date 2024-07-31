@@ -48,7 +48,7 @@ export default function Navbar() {
 
       <div className='flex'>
       <TimerTwoToneIcon className="p-[0.15rem] text-red-500 "/>
-      <div className='py-[0.15rem] text-[0.90rem] font-semibold tracking-tighter'>Monday - Friday 09:00 am - 06:00 Pm</div>
+      <div className='py-[0.15rem] text-[0.90rem] font-semibold tracking-tighter'>Monday - Saturday 09:00 am - 06:00 Pm</div>
       </div>
 
       <div className='flex '>
@@ -78,14 +78,14 @@ export default function Navbar() {
       </div>
     </div>
 {/* ----------------------------------low navbar------------------------------------------------- */}
-<div className='px-12 flex gap-[12.3rem]'>
+<div className='px-12 flex gap-[6.3rem]'>
     <div  >
         <img onClick={()=>{navigate("/")}} src={logo} alt="" id='logo' className='p-1 cursor-pointer opacity-5 h-[5rem] '/>
     </div>
     <div id='lownav' className='flex gap-9 text-[1.15rem] pt-8 font-light opacity-0'>
         <div onClick={()=>{navigate("overview")}}  className='cursor-pointer h-1  '>Comapny Overview </div>
         <div onClick={()=>{navigate("program")}} className='cursor-pointer h-1'>Program</div>
-        {/* <div onClick={()=>{navigate("student")}} className='cursor-pointer h-1'>Student</div> */}
+        <div onClick={()=>{navigate("student")}} className='cursor-pointer h-1'>Student Services</div>
         <div onClick={()=>{navigate("destination")}} className='cursor-pointer h-1'>Contact Details</div>
         <div onClick={()=>{navigate("event")}} className='cursor-pointer h-1'>Event & Media</div>
         {/* <div onClick={()=>{navigate("contact")}} className='cursor-pointer h-1 '>Contact us</div> */}

@@ -49,7 +49,7 @@ export default function Box(props) {
             </div>
             <div>
                 <p className='text-sm text-slate-600'>Monday-Saturday</p>
-                <p  className='text-sm text-slate-600'>9 am - 8 pm</p>
+                <p  className='text-sm text-slate-600'>9 am - 6 pm</p>
             </div>
         </div>
         </div>

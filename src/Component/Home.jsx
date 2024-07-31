@@ -19,7 +19,7 @@ export default function Home() {
       <Intro/>
       <Services/>
       <Achievements/>
-      <ServicesStep/>
+      
       <WhyChooseus/>
       <Whatsapp/>
       

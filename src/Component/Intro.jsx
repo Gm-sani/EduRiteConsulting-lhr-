@@ -1,5 +1,5 @@
 import React from 'react'
-import plan from './pics/plane.png'
+import since from './pics/Since.png'
 import hndshk from './pics/handShake.png'
 import intropic from './pics/intropic_1.jpg'
 export default function Intro() {
@@ -10,19 +10,19 @@ export default function Intro() {
         <div>
         <p className='text-[1rem] text-red-600 tracking-wider font-semibold'>INTRODUCTION</p>
             <p className='text-[2rem] font-semibold mt-4'>EDURITE CONSULTING</p>
-            <p className='w-[25rem] text-gray-800 tracking-wider mt-4 text-[1rem]'>There anyone who loves or pursues nor desires to obtain pain of itself, bet it is pain, but because occasionally can non dis nostra integer eleifend eros nulla senectus, packages as their default eastend of visa processing lorem zone nuturs etiam justo orci cursus et enim sit amet, tempor lorem. </p>
+            <p className='w-[25rem] text-gray-800 tracking-wider mt-4 text-[1rem]'>Explore global opportunities with our top-notch study abroad consultancy. We provide personalized guidance and support, ensuring a seamless journey from application to arrival at your dream destination. </p>
         <div className='flex gap-5 mt-12'>
         <img src={hndshk} alt="" className='h-[2.5rem]' />
             <div>
                 <p className='text-xl font-semibold mt-[-0.7rem]'>Our Mission</p>
-                <p className='w-[21rem] text-gray-800 tracking-tight mt-2 text-[0.92rem]'>Mission lorem people you are testing with will bring up questions that lorem. They will give you ispurm of similar things they use that might help you.</p>
+                <p className='w-[21rem] text-gray-800 tracking-tight mt-2 text-[0.92rem]'>Our mission is to empower students to achieve their educational dreams abroad through expert guidance and personalized support</p>
             </div>
         </div>
         <div className='flex gap-3 mt-12'>
-        <img src={plan} alt="" className='h-[3.2rem]' />
+        <img src={since} alt="" className='h-[2.7rem]' />
             <div>
-                <p className='text-xl font-semibold mt-[-0.7rem]'>Our Mission</p>
-                <p className='w-[21rem] text-gray-800 tracking-tight mt-2 text-[0.92rem]'>Mission lorem people you are testing with will bring up questions that lorem. They will give you ispurm of similar things they use that might help you.</p>
+                <p className='text-xl font-semibold mt-[-0.7rem]'>Established </p>
+                <p className='w-[21rem] text-gray-800 tracking-tight mt-2 text-[0.92rem]'>Guiding students to their dream destinations since 2012 with expert advice and personalized support</p>
             </div>
         </div>
         </div>

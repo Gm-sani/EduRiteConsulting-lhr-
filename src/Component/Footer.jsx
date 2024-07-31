@@ -86,13 +86,14 @@ export default function Footer() {
         <div className=''>
             <p className='text-[2rem] text-red-600 font-semibold pl-12'>Our Branch</p> 
             <ul className="list-disc text-[1rem] text-white mt-5 pl-16">
-                <li className='hover:text-red-500 cursor-pointer'>Lahore</li>
+                <li className='hover:text-red-500 cursor-pointer'>29 Civic Center, Second floor,</li>
+                <p className='hover:text-red-500 cursor-pointer'> Barkat market, Lahore</p>
                 <li className='hover:text-red-500 cursor-pointer'>eduriteconsulting@gmail.com</li>
                 <li className='hover:text-red-500 cursor-pointer'>92-300-2488996</li>
                 <li className='hover:text-red-500 cursor-pointer'>92-300-1488995</li>
                 <li className='hover:text-red-500 cursor-pointer'>92-301-8301102</li>
                 <li className='hover:text-red-500 cursor-pointer'>92-313-6627474</li>
-                <li className='hover:text-red-500 cursor-pointer'>92-314-7978902</li>
+            
             </ul>
         </div>
         
