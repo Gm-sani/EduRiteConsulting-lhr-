@@ -55,7 +55,7 @@ export default function Box(props) {
         </div>
         
         <div>
-            <img src={props.pic} alt="" className='mt-3 h-[13rem] rounded-xl'/>
+            <img src={props.pic} alt="Office image" className='mt-3 h-[13rem] rounded-xl'/>
         </div>
     </div>
     </div>
@@ -93,7 +93,7 @@ export function Box1(props) {
           </div>
           
           <div>
-              <img src={props.unipic8} alt="" className='mt-3 h-[13rem] rounded-xl'/>
+              <img src={props.unipic8} alt="Country flag" className='mt-3 h-[13rem] rounded-xl'/>
           </div>
       </div>
       </div>

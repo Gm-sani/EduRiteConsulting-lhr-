@@ -80,7 +80,7 @@ export default function Navbar() {
 {/* ----------------------------------low navbar------------------------------------------------- */}
 <div className='px-12 flex gap-[6.3rem]'>
     <div  >
-        <img onClick={()=>{navigate("/")}} src={logo} alt="" id='logo' className='p-1 cursor-pointer opacity-5 h-[5rem] '/>
+        <img onClick={()=>{navigate("/")}} src={logo} alt="logo" id='logo' className='p-1 cursor-pointer opacity-5 h-[5rem] '/>
     </div>
     <div id='lownav' className='flex gap-9 text-[1.15rem] pt-8 font-light opacity-0'>
         <div onClick={()=>{navigate("overview")}}  className='cursor-pointer h-1  '>Comapny Overview </div>

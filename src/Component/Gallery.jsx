@@ -12,24 +12,24 @@ export default function Gallery() {
       <p className='text-[2.1rem] text-red-800 tracking-wide font-semibold text-center '> View the Study Abroad Seminar Gallery </p>
     <div className='flex justify-center gap-10 mt-6'>
         <div>
-            <img src={gallery1} alt="" className='rounded-2xl h-[23rem]'/>
+            <img src={gallery1} alt="gallery1" className='rounded-2xl h-[23rem]'/>
         </div>
         <div>
-            <img src={gallery2} alt="" className='rounded-2xl h-[23rem]'/>
+            <img src={gallery2} alt="gallery2" className='rounded-2xl h-[23rem]'/>
         </div>
         <div>
-            <img src={gallery3} alt="" className='rounded-2xl h-[23rem]'/>
+            <img src={gallery3} alt="gallery3" className='rounded-2xl h-[23rem]'/>
         </div>
     </div>
     <div className='flex justify-center gap-10 mt-8'>
         <div>
-            <img src={gallery4} alt="" className='rounded-2xl h-[23rem]'/>
+            <img src={gallery4} alt="gallery4" className='rounded-2xl h-[23rem]'/>
         </div>
         <div>
-            <img src={gallery5} alt="" className='rounded-2xl h-[23rem]'/>
+            <img src={gallery5} alt="gallery5" className='rounded-2xl h-[23rem]'/>
         </div>
         <div>
-            <img src={gallery6} alt="" className='rounded-2xl h-[23rem]'/>
+            <img src={gallery6} alt="gallery6" className='rounded-2xl h-[23rem]'/>
         </div>
     </div>
     </div>

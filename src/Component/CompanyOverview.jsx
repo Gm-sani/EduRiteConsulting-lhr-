@@ -1,6 +1,6 @@
 import React from 'react'
 
-import BookConsultant from './BookConsultant'
+
 
 import ContactUs2 from './ContactUs2'
 import Destination2 from './Location'

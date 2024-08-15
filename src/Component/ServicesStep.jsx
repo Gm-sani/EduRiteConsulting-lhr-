@@ -11,7 +11,7 @@ export default function ServicesStep() {
        {/* ----------------------------first------------------------------------ */}
         <div className=''>
             <div className=' border-2 cursor-pointer  border-dotted p-3 border-red-300 hover:border-red-600 rounded-full m-auto w-fit'>
-            <img src={form1pic} alt="" className='h-[5rem]  bg-white p-2  rounded-full'/>
+            <img src={form1pic} alt="form1pic" className='h-[5rem]  bg-white p-2  rounded-full'/>
             </div>
             <p className='text-[1.2rem] font-semibold text-center mt-4'>Apply Online</p>
             <p className='text-[0.85rem] mt-2 text-slate-600 w-[17rem]  text-center'>Submit Your Visa Application with Our Online Form</p>
@@ -19,7 +19,7 @@ export default function ServicesStep() {
         {/* ----------------------------second------------------------------------ */}
         <div className=''>
             <div className=' border-2 cursor-pointer  border-dotted p-3 border-red-300 hover:border-red-600 rounded-full m-auto w-fit'>
-            <img src={docPayment2pic} alt="" className='h-[5.2rem]  bg-white p-1  rounded-full'/>
+            <img src={docPayment2pic} alt="docPayment2pic" className='h-[5.2rem]  bg-white p-1  rounded-full'/>
             </div>
             <p className='text-[1.2rem] font-semibold text-center mt-4'>Submit Document</p>
             <p className='text-[0.85rem] mt-2 text-slate-600 w-[17rem] text-center'>Submit Required Documents and Payments for Visa</p>
@@ -27,7 +27,7 @@ export default function ServicesStep() {
              {/* ----------------------------second------------------------------------ */}
         <div className=''>
             <div className=' border-2 cursor-pointer  border-dotted p-3 border-red-300 hover:border-red-600 rounded-full m-auto w-fit'>
-            <img src={approval3pic} alt="" className='h-[5.2rem]  bg-white p-1  rounded-full'/>
+            <img src={approval3pic} alt="approval3pic" className='h-[5.2rem]  bg-white p-1  rounded-full'/>
             </div>
             <p className='text-[1.2rem] font-semibold text-center mt-4'>Receive Visa</p>
             <p className='text-[0.85rem] mt-2 text-slate-600 w-[17rem] text-center'>Receive Your Approved Visa Quickly and Easily</p>

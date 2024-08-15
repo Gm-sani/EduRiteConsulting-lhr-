@@ -23,7 +23,7 @@ export default function Achievements() {
           {/* -----------------------------1st---------------------------------- */}
           <div className='flex gap-5 ml-8 px-6 py-4  border border-red-300 border-l text-slate-300 cursor-pointer hover:text-white hover:bg-red-600 border-l-red-700 border-opacity-40 hover:border-opacity-95 hover:shadow-lg hover:shadow-red-800'>
             <div className='mt-1'>
-              <img src={achievements1} alt="" className='h-[5.5rem] border-r border-r-slate-100 border-opacity-40'/>
+              <img src={achievements1} alt="Achievements1" className='h-[5.5rem] border-r border-r-slate-100 border-opacity-40'/>
             </div>
             <div className=''>
               <p className='text-[2.7rem] font-bold '>3+</p>
@@ -33,7 +33,7 @@ export default function Achievements() {
           {/* ------------------------------2nd--------------------------------- */}
           <div className='flex gap-5 ml-2  px-6 py-4  border border-red-300 border-l text-slate-300 cursor-pointer hover:text-white hover:bg-red-600 border-l-red-700 border-opacity-40 hover:border-opacity-95 hover:shadow-lg hover:shadow-red-800'>
             <div className='mt-1'>
-              <img src={achievements2} alt="" className='h-[5rem] border-r border-r-slate-100 border-opacity-40'/>
+              <img src={achievements2} alt="Achievements2" className='h-[5rem] border-r border-r-slate-100 border-opacity-40'/>
             </div>
             <div className=''>
               <p className='text-[2.7rem] font-bold '>68K</p>
@@ -43,7 +43,7 @@ export default function Achievements() {
           {/* ------------------------------3rd--------------------------------- */}
           <div className='flex gap-5  px-6 py-4  border border-red-300 border-l text-slate-300 cursor-pointer hover:text-white hover:bg-red-600 border-l-red-700 border-opacity-40 hover:border-opacity-95 hover:shadow-lg hover:shadow-red-800'>
             <div className='mt-1'>
-              <img src={achievements3} alt="" className='h-[5.2rem] border-r border-r-slate-100 border-opacity-40'/>
+              <img src={achievements3} alt="Achievements3" className='h-[5.2rem] border-r border-r-slate-100 border-opacity-40'/>
             </div>
             <div className=''>
               <p className='text-[2.7rem] font-bold '>99+</p>
@@ -53,7 +53,7 @@ export default function Achievements() {
           {/* ------------------------------4th--------------------------------- */}
           <div className='flex gap-5 mr-8  px-6 py-4  border border-red-300 border-l text-slate-300 cursor-pointer hover:text-white hover:bg-red-600 border-l-red-700 border-opacity-40 hover:border-opacity-95 hover:shadow-lg hover:shadow-red-800'>
             <div className='mt-1'>
-              <img src={achievements4} alt="" className='h-[5.3rem] border-r border-r-slate-100 border-opacity-40'/>
+              <img src={achievements4} alt="Achievements4" className='h-[5.3rem] border-r border-r-slate-100 border-opacity-40'/>
             </div>
             <div className=''>
               <p className='text-[2.7rem] font-bold '>23+</p>

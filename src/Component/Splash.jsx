@@ -21,7 +21,7 @@ export default function Splash() {
   return (
     <div id="main" className=' bg-red-50 h-screen w-screen'>
         <div className='flex justify-center content-center pt-52'>
-        <img id='logo' src={logo} alt="" className='h-[3rem] opacity-0'/>
+        <img id='logo' src={logo} alt="logo" className='h-[3rem] opacity-0'/>
         </div>
     </div>
   )

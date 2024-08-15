@@ -12,7 +12,7 @@ export default function Services() {
       <div className='flex gap-5 justify-center mt-8'>
         {/* ---------------------------box1---------------------- */}
         <div className=''>
-            <img src={servicepic1} alt="" className='h-[15rem] '/>
+            <img src={servicepic1} alt="servicepic1" className='h-[15rem] '/>
             <div className='p-6 bg-white ml-2 mr-2 absolute mt-[-1.7rem] hover:border-b-2 cursor-pointer hover:border-red-500 shadow-lg'>
                 <p className='text-xl font-semibold text-center '>Education Visa</p>
                 <p className='text-gray-700  text-[0.9rem] mt-3 text-center w-[16rem]'>Education Visa amet risus snm. Elementum sagittis vitae et leo duis ut diam quam nul.</p>
@@ -20,7 +20,7 @@ export default function Services() {
         </div>
         {/* ---------------------------box2---------------------- */}
         <div className=''>
-            <img src={servicepic2} alt="" className='h-[15rem] '/>
+            <img src={servicepic2} alt="servicepic2" className='h-[15rem] '/>
             <div className='p-6 bg-white ml-2 mr-2 absolute mt-[-1.7rem] hover:border-b-2 cursor-pointer hover:border-red-500 shadow-lg'>
                 <p className='text-xl font-semibold text-center '>Business Visa</p>
                 <p className='text-gray-700  text-[0.9rem] mt-3 text-center w-[16rem]'>Business Visa amet risus null. Elementum sagittis vitae et leo duis ut diam quam nul.</p>
@@ -28,7 +28,7 @@ export default function Services() {
         </div>
         {/* ---------------------------box3---------------------- */}
         <div className=''>
-            <img src={servicepic3} alt="" className='h-[15rem] '/>
+            <img src={servicepic3} alt="servicepic3" className='h-[15rem] '/>
             <div className='p-6 bg-white ml-2 mr-2 cursor-pointer absolute mt-[-1.7rem] hover:border-b-2 hover:border-red-500 shadow-lg'>
                 <p className='text-xl font-semibold text-center '>Work Visa</p>
                 <p className='text-gray-700 text-[0.9rem] mt-3 text-center w-[16rem]'>Work Visa amet risus null. Elementum sagittis vitae et leo duis ut diam quam nul lorem.</p>

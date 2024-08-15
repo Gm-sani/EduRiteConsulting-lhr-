@@ -35,7 +35,7 @@ export default function ContactUs2(props) {
   return (
     <div className='flex justify-center gap-12 py-5'>
      <div className='mt-9'>
-        <img src={contactpic} alt="" className='h-[30rem]'/>
+        <img src={contactpic} alt="contactpic" className='h-[30rem]'/>
      </div>
      {/* --------------------------------form-------------------------------- */}
      <div>

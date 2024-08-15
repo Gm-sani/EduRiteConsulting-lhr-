@@ -7,7 +7,7 @@ export default function IntroPage2(props) {
   return (
     <div className='pb-[22rem]'>
       <div className=' my-4 '>
-        <img src={OverViewPic3} alt="" className=' h-[22rem] mx-12 w-[78rem] m-auto rounded-3xl absolute  ' />
+        <img src={OverViewPic3} alt="OverViewPic" className=' h-[22rem] mx-12 w-[78rem] m-auto rounded-3xl absolute  ' />
       </div>
       <div className='ml-28 mt-16 absolute '>
         <p className='text-[4rem] font-bold text-slate-100 tracking-wider '>{props.namm}</p>
