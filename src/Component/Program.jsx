@@ -21,7 +21,7 @@ export default function Program(props) {
       <p className='text-[0.85rem] text-red-600 font-semibold text-center mt-5'>COURSES WE OFFER</p>
       <p className='text-[2rem] font-semibold mt-[0.1rem] text-center'>Get the Best Courses You Deserve</p>
       {/* -----------------------------------------Box row 1---------------------------- */}
-      <div className='lg:flex min-[315px]:flex-row lg:mx-0 min-[315px]:mx-12 gap-5 justify-center mt-[1rem]'>
+      <div className='lg:flex flex-row lg:mx-0 mx-12 gap-5 justify-center mt-[1rem]'>
         {/* ---------------------------Bs---------------------- */}
         <div className=''>
             <img src={Bspic} alt="Bspic" className='h-[13rem] w-[19.5rem]'/>
@@ -31,7 +31,7 @@ export default function Program(props) {
             </div>
         </div>
         {/* ---------------------------Ms---------------------- */}
-        <div className='lg:my-[0rem] min-[310px]:mt-[10rem]'>
+        <div className='lg:mt-[0rem] mt-[10rem]'>
             <img src={Mspic} alt="Mspic" className='h-[13rem] '/>
             <div className='p-6  bg-white ml-2 mr-2 absolute mt-[-1.7rem] hover:border-b-2 cursor-pointer hover:border-red-500 shadow-lg'>
             <p className='text-xl font-semibold text-center '>MS</p>
@@ -39,7 +39,7 @@ export default function Program(props) {
             </div>
         </div>
         {/* ---------------------------Mbbs---------------------- */}
-        <div className='lg:my-[0rem] min-[310px]:mt-[10rem]'>
+        <div className='lg:mt-[0rem] mt-[10rem]'>
             <img src={Mbbspic} alt="Mbbspic" className='h-[13rem] '/>
             <div className='p-6  bg-white ml-2 mr-2 absolute mt-[-1.7rem] hover:border-b-2 cursor-pointer hover:border-red-500 shadow-lg'>
             <p className='text-xl font-semibold text-center '>MBBS</p>
@@ -48,7 +48,7 @@ export default function Program(props) {
             </div>
         </div>
         {/* ---------------------------Phd---------------------- */}
-        <div className='lg:my-[0rem] min-[310px]:mt-[10rem]'>
+        <div className='lg:mt-[0rem] mt-[10rem]'>
             <img src={Phdpic} alt="Phdpic" className='h-[13rem] '/>
             <div className='p-6  bg-white ml-2 mr-2 absolute mt-[-1.7rem] hover:border-b-2 cursor-pointer hover:border-red-500 shadow-lg' >
             <p className='text-xl font-semibold text-center '>PHD</p>

@@ -10,7 +10,7 @@ import emailjs from '@emailjs/browser'
 export default function Box(props) {
   return (
     <div>
-      <div className='flex gap-36 bg-red-100 py-8 px-8 m-auto lg:w-fit min-[315px]:w-8 mt-10 rounded-2xl'>
+      <div className='flex gap-36 bg-red-100 py-8 px-8 m-auto lg:w-fit w-[100vw] mt-10 rounded-2xl'>
         <div>
             {/* ----------------------------1_1---------------------------- */}
         <div className='flex gap-3'>

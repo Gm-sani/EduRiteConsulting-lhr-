@@ -6,7 +6,7 @@ import plane from './pics/plane.png'
 import choosepic from './pics/choosepic.jpg'
 export default function WhyChooseus() {
   return (
-    <div className='bg-slate-50 h-[100vh] pt-7'>
+    <div className='bg-slate-50 pt-7'>
         <div className='flex justify-center '>
         <div className='mt-[4.3rem] md:block hidden'>
         <img src={choosepic} alt="choosepic" className='h-[30rem]'/>
