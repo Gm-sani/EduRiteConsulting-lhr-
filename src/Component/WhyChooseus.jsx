@@ -8,7 +8,7 @@ export default function WhyChooseus() {
   return (
     <div className='bg-slate-50 h-[100vh] pt-7'>
         <div className='flex justify-center '>
-        <div className='mt-[4.3rem]'>
+        <div className='mt-[4.3rem] md:block hidden'>
         <img src={choosepic} alt="choosepic" className='h-[30rem]'/>
       </div>
       <div className='bg-white p-5 hover:border-b-4 hover:border-b-red-600 shadow-xl'>

@@ -24,26 +24,26 @@ export default function Countries() {
         {/* <p className='text-[2.1rem] mt-[-0.7rem] text-red-800 tracking-tight font-semibold'>Guide You</p> */}
     </div>
     {/* ---------------------------------Button------------------------------------ */}
-    <div className='flex gap-8 justify-center mt-5'>
-    <div onClick={()=>{navigate("italy")}} className='px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
+    <div className='lg:flex min-[315px]:flex-row  gap-8 justify-center mt-5'>
+    <div onClick={()=>{navigate("italy")}} className='text-center px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
         <p className='text-[1rem] font-semibold'>ITALY</p>
     </div>
-    <div onClick={()=>{navigate("finland")}} className='px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
+    <div onClick={()=>{navigate("finland")}} className=' text-center px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
         <p className='text-[1rem] font-semibold'>FINLAND</p>
     </div>
-    <div onClick={()=>{navigate("sweden")}} className='px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
+    <div onClick={()=>{navigate("sweden")}} className=' text-center px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
         <p className='text-[1rem] font-semibold'>SWEDEN</p>
     </div>
-    <div onClick={()=>{navigate("china")}} className='px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
+    <div onClick={()=>{navigate("china")}} className=' text-center px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
         <p className='text-[1rem] font-semibold'>CHINA</p>
     </div>
-    <div onClick={()=>{navigate("australia")}} className='px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
+    <div onClick={()=>{navigate("australia")}} className=' text-center px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
         <p className='text-[1rem] font-semibold'>AUSTRALIA</p>
     </div>
-    <div onClick={()=>{navigate("uk")}} className='px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
+    <div onClick={()=>{navigate("uk")}} className=' text-center px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
         <p className='text-[1rem] font-semibold'>UK</p>
     </div>
-    <div onClick={()=>{navigate("usa")}} className='px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
+    <div onClick={()=>{navigate("usa")}} className=' text-center px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
         <p className='text-[1rem] font-semibold'>USA</p>
     </div>
     </div>

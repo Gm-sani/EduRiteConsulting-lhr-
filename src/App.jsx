@@ -24,15 +24,15 @@ import Student from './Component/Student.jsx';
 function App() {
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 3000); // Splash screen will be visible for 3 seconds
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 3000); // Splash screen will be visible for 3 seconds
+  // }, []);
 
-  if (loading) {
-    return <Splash />;
-  }
+  // if (loading) {
+  //   return <Splash />;
+  // }
 
   return (
     <div className='bg-slate-50'>

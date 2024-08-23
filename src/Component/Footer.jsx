@@ -9,7 +9,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 export default function Footer() {
     const navigate =useNavigate();
   return (
-    <>
+    <div className='md:block hidden'>
     {/* -----------------------------------backpic----------------------------- */}
     <div className='absolute'>
         <img src={footer} alt="" className='h-[75vh] w-[100vw] opacity-90'/>
@@ -113,6 +113,6 @@ export default function Footer() {
      </div>
     
     </div>
-    </>
+    </div>
   )
 }

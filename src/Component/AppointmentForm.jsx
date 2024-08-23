@@ -65,7 +65,7 @@ export default function AppontmentForm(props) {
   return (
     <div className='flex justify-center gap-8 py-5'>
      <div id='bag' className='mt-20'>
-        <img src={appointPic} alt="appointPic" className=''/>
+        <img src={appointPic} alt="appointPic" className='hidden md:block'/>
      </div>
      {/* --------------------------------form-------------------------------- */}
      <div>

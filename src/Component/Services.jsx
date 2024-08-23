@@ -9,7 +9,7 @@ export default function Services() {
       <p className='text-[1rem] text-red-600 tracking-wider font-semibold text-center'>Our Services</p>
       <p className='text-[2rem] font-semibold mt-3 text-center'>Services We Provide</p>
       {/* -----------------------------------------Box row 1---------------------------- */}
-      <div className='flex gap-5 justify-center mt-8'>
+      <div className='lg:flex min-[310px]:flex-row min-[310px]:mx-[3rem] gap-5 justify-center mt-8'>
         {/* ---------------------------box1---------------------- */}
         <div className=''>
             <img src={servicepic1} alt="servicepic1" className='h-[15rem] '/>
@@ -19,7 +19,7 @@ export default function Services() {
             </div>
         </div>
         {/* ---------------------------box2---------------------- */}
-        <div className=''>
+        <div className='lg:mt-0 min-[310px]:mt-[10rem]'>
             <img src={servicepic2} alt="servicepic2" className='h-[15rem] '/>
             <div className='p-6 bg-white ml-2 mr-2 absolute mt-[-1.7rem] hover:border-b-2 cursor-pointer hover:border-red-500 shadow-lg'>
                 <p className='text-xl font-semibold text-center '>Business Visa</p>
@@ -27,7 +27,7 @@ export default function Services() {
             </div>
         </div>
         {/* ---------------------------box3---------------------- */}
-        <div className=''>
+        <div className='lg:mt-0 min-[310px]:mt-[10rem]'>
             <img src={servicepic3} alt="servicepic3" className='h-[15rem] '/>
             <div className='p-6 bg-white ml-2 mr-2 cursor-pointer absolute mt-[-1.7rem] hover:border-b-2 hover:border-red-500 shadow-lg'>
                 <p className='text-xl font-semibold text-center '>Work Visa</p>

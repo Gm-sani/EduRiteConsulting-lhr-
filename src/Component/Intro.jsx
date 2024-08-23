@@ -5,7 +5,7 @@ import intropic from './pics/intropic_1.jpg'
 export default function Intro() {
   return (
     <div className=''>
-<div className=' m-12  '>
+<div className='min-[310px]:ml-[10rem] min-[310px]:m-12 lg:m-12  '>
         <div className='flex gap-24 justify-center'>
         <div>
         <p className='text-[1rem] text-red-600 tracking-wider font-semibold'>INTRODUCTION</p>
@@ -28,7 +28,7 @@ export default function Intro() {
         </div>
 {/* -------------------------------------Right img---------------------------------- */}
         <div>
-            <img src={intropic} alt="intropic" className='h-[35rem]' />
+            <img src={intropic} alt="intropic" className='h-[35rem] md:block hidden' />
         </div>
         </div>
       

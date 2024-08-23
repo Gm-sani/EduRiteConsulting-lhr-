@@ -10,7 +10,7 @@ import emailjs from '@emailjs/browser'
 export default function Box(props) {
   return (
     <div>
-      <div className='flex gap-36 bg-red-100 py-8 px-8 m-auto w-fit mt-10 rounded-2xl'>
+      <div className='flex gap-36 bg-red-100 py-8 px-8 m-auto lg:w-fit min-[315px]:w-8 mt-10 rounded-2xl'>
         <div>
             {/* ----------------------------1_1---------------------------- */}
         <div className='flex gap-3'>
@@ -55,7 +55,7 @@ export default function Box(props) {
         </div>
         
         <div>
-            <img src={props.pic} alt="Office image" className='mt-3 h-[13rem] rounded-xl'/>
+            <img src={props.pic} alt="Office image" className='mt-3 h-[13rem] rounded-xl md:block hidden'/>
         </div>
     </div>
     </div>
@@ -93,7 +93,7 @@ export function Box1(props) {
           </div>
           
           <div>
-              <img src={props.unipic8} alt="Country flag" className='mt-3 h-[13rem] rounded-xl'/>
+              <img src={props.unipic8} alt="Country flag" className='mt-3 h-[13rem] rounded-xl md:block hidden'/>
           </div>
       </div>
       </div>
@@ -150,39 +150,39 @@ export function Box1(props) {
       <div>
         <IntroPage2 namm={props.title}/>   
         <div className='flex justify-between'>
-            <div className='flex-[0.7]  bg-white shadow-black shadow-2xl p-24'>
-                <p className='text-[2.1rem] font-semibold '>EDURITE Consulting is your gateway to a successful career if you study {props.title} abroad.</p>
-                <p className='text-[1.6rem] font-semibold mt-[4rem] '>Why Do You Wish to Study {props.title} Abroad?</p>
-                <p className='text-[1rem] mt-[4rem] text-slate-600'>Many aspiring students have a dream to get their {props.title} degree overseas. Each year, thousands of students choose to study degrees that are recognised around the world, advanced training, and exposure to other countries. EDURITE Consulting is here to help you along the way and make sure you receive the most education possible.</p>
-                <p className='text-[1.6rem] font-semibold mt-[4rem] '>Advantages of Studying {props.title} Abroad </p>              
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>World-Class Education:</b>{props.title} degrees are available in several countries and are popular around the world. Georgian, Russian, Kazakhstan and Chinese educational institutions are known for their modern teaching strategies and challenging courses.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>Normally cost tuition:</b>Getting an {props.title} abroad may prove to be more economical as compared to attending private medical schools in Pakistan and other nations. Many universities give high-quality education at much lower prices.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>No Entrance Exam: </b>To enroll in MBBS programmes, students in a number of countries are not required to pass entrance tests such as NEET, which improves and increases accessibility of the admissions process.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>International Exposure:</b>Studying abroad gives students the chance to interact with classmates from all beginnings and cultures, expanding their view on the world and improving their communication abilities.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>Advanced Infrastructure:</b> Modern laboratories and state-of-the-art facilities are features of many international medical universities, giving students the opportunity to interact with the newest developments in medicine.</p> 
-                    <p className='text-[1.6rem] font-semibold mt-[4rem] '>Best Places to Study {props.title} Abroad </p>
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>{props.ctr1}:</b> {props.ctr1} is a popular place for {props.title} candidates due to its inexpensive living costs and high-quality education system. English-language programmes are available at universities such as the Columbia University and Washigton State University, that have been recognised by major international medical organisations.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>{props.ctr2}:</b> {props.ctr2} universities like University of London and Brimingham University attract students from all over the world because they place a high value on research and clinical practice.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>{props.ctr3}:</b>  The MBBS programmes in {props.ctr3} provide a unique combination of modern and traditional medicine. Renowned universities for {props.title} education.</p> 
-                    <p className='text-[1.6rem] font-semibold mt-[4rem] '>What EDURITE Consulting Can Do to Help </p>
-                    <p className='text-[1.02rem] mt-5  text-slate-900'>We at EDURITE Consulting are aware of the difficulties associated with studying abroad. Comprehensive support services are provided by our dedicated staff of professionals to ensure an easy transition and a successful academic career.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>Personalised Counselling :</b> Based on your academic profile, financial situation, and personal preferences, our knowledgeable advisers help you in selecting the ideal nation and university</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>Admission Assistance:</b>  To ensure a hassle-free admissions procedure, we help you with every step of the application process, from filling out forms to collecting needed documents.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>Visa Processing:</b>  It can be difficult to understand the requirements for a visa. Our staff helps you with the visa application procedure and makes sure all paperwork is timely and in order.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>Financial Guidance:</b> To help you in successfully managing your funds during your study period of time, we provide support on budgeting, educational institutions loans, and scholarships.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>Pre-Departure Orientation:</b> We hold pre-departure seminars that cover important subjects such as culture, transportation, accommodation, and safety to help you get ready for life in another country.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>Post-Arrival Support:</b>After you arrive at your destination, we continue to be of help. We help with accommodation reservations, airport transfers, and adjusting to your new surroundings.</p> 
-                    <p className='text-[1.6rem] font-semibold mt-[4rem] '>Why Choose EDURITE Consulting? </p>
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>Experience and Expertise:</b>With years of experience in the education consultancy field, we have successfully placed hundreds of students in top universities worldwide.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>Trusted Partnerships</b> We have established strong relationships with reputed medical universities, ensuring you receive quality education and recognition.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>Student-Centric Approach:</b>Your success is our priority. We offer personalized services tailored to meet the unique needs of each student.</p> 
-                    <p className='text-[1.02rem] mt-5  text-slate-900'><b>Transparent Processes:</b>At EDURITE Consulting, we believe in transparency. We keep you informed at every step, ensuring there are no hidden costs or surprises.</p> 
-                    <p className='text-[1.6rem] font-semibold mt-[4rem] '>Start Your {props.title} Journey with EDURITE Consulting</p>
-                    <p className='text-[1.02rem] mt-5  text-slate-900'>Starting an {props.title} programme abroad is a big decision. You may feel secure understanding that you have chosen the best choice for your future when EDURITE Consulting is on your side. To find out more about our services and how we can support you in realising your goals for a {props.title} profession, get in touch with us right now.</p> 
+            <div className='lg:flex-[0.7]  md:flex-1 bg-white shadow-black shadow-2xl lg:p-[6rem] p-[2rem]'>
+                <p className='lg:text-[2.1rem] text-[1.6rem] font-semibold '>EDURITE Consulting is your gateway to a successful career if you study {props.title} abroad.</p>
+                <p className='lg:text-[1.6rem] text-[1.3rem] font-semibold mt-[4rem] '>Why Do You Wish to Study {props.title} Abroad?</p>
+                <p className='lg:text-[1rem] text-[0.9rem] mt-[4rem] text-slate-600'>Many aspiring students have a dream to get their {props.title} degree overseas. Each year, thousands of students choose to study degrees that are recognised around the world, advanced training, and exposure to other countries. EDURITE Consulting is here to help you along the way and make sure you receive the most education possible.</p>
+                <p className='lg:text-[1.6rem] text-[1.3rem] font-semibold mt-[4rem] '>Advantages of Studying {props.title} Abroad </p>              
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>World-Class Education:</b>{props.title} degrees are available in several countries and are popular around the world. Georgian, Russian, Kazakhstan and Chinese educational institutions are known for their modern teaching strategies and challenging courses.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>Normally cost tuition:</b>Getting an {props.title} abroad may prove to be more economical as compared to attending private medical schools in Pakistan and other nations. Many universities give high-quality education at much lower prices.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>No Entrance Exam: </b>To enroll in MBBS programmes, students in a number of countries are not required to pass entrance tests such as NEET, which improves and increases accessibility of the admissions process.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>International Exposure:</b>Studying abroad gives students the chance to interact with classmates from all beginnings and cultures, expanding their view on the world and improving their communication abilities.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>Advanced Infrastructure:</b> Modern laboratories and state-of-the-art facilities are features of many international medical universities, giving students the opportunity to interact with the newest developments in medicine.</p> 
+                    <p className='lg:text-[1.6rem] text-[1.3rem] font-semibold mt-[4rem] '>Best Places to Study {props.title} Abroad </p>
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>{props.ctr1}:</b> {props.ctr1} is a popular place for {props.title} candidates due to its inexpensive living costs and high-quality education system. English-language programmes are available at universities such as the Columbia University and Washigton State University, that have been recognised by major international medical organisations.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>{props.ctr2}:</b> {props.ctr2} universities like University of London and Brimingham University attract students from all over the world because they place a high value on research and clinical practice.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>{props.ctr3}:</b>  The MBBS programmes in {props.ctr3} provide a unique combination of modern and traditional medicine. Renowned universities for {props.title} education.</p> 
+                    <p className='lg:text-[1.6rem] text-[1.3rem] font-semibold mt-[4rem] '>What EDURITE Consulting Can Do to Help </p>
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'>We at EDURITE Consulting are aware of the difficulties associated with studying abroad. Comprehensive support services are provided by our dedicated staff of professionals to ensure an easy transition and a successful academic career.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>Personalised Counselling :</b> Based on your academic profile, financial situation, and personal preferences, our knowledgeable advisers help you in selecting the ideal nation and university</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>Admission Assistance:</b>  To ensure a hassle-free admissions procedure, we help you with every step of the application process, from filling out forms to collecting needed documents.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>Visa Processing:</b>  It can be difficult to understand the requirements for a visa. Our staff helps you with the visa application procedure and makes sure all paperwork is timely and in order.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>Financial Guidance:</b> To help you in successfully managing your funds during your study period of time, we provide support on budgeting, educational institutions loans, and scholarships.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>Pre-Departure Orientation:</b> We hold pre-departure seminars that cover important subjects such as culture, transportation, accommodation, and safety to help you get ready for life in another country.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>Post-Arrival Support:</b>After you arrive at your destination, we continue to be of help. We help with accommodation reservations, airport transfers, and adjusting to your new surroundings.</p> 
+                    <p className='lg:text-[1.6rem] text-[1.3rem] font-semibold mt-[4rem] '>Why Choose EDURITE Consulting? </p>
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>Experience and Expertise:</b>With years of experience in the education consultancy field, we have successfully placed hundreds of students in top universities worldwide.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>Trusted Partnerships</b> We have established strong relationships with reputed medical universities, ensuring you receive quality education and recognition.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>Student-Centric Approach:</b>Your success is our priority. We offer personalized services tailored to meet the unique needs of each student.</p> 
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'><b>Transparent Processes:</b>At EDURITE Consulting, we believe in transparency. We keep you informed at every step, ensuring there are no hidden costs or surprises.</p> 
+                    <p className='lg:text-[1.6rem] text-[1.3rem] font-semibold mt-[4rem] '>Start Your {props.title} Journey with EDURITE Consulting</p>
+                    <p className='lg:text-[1.02rem] text-[0.9rem] mt-5  text-slate-900'>Starting an {props.title} programme abroad is a big decision. You may feel secure understanding that you have chosen the best choice for your future when EDURITE Consulting is on your side. To find out more about our services and how we can support you in realising your goals for a {props.title} profession, get in touch with us right now.</p> 
                 
             </div>
             {/* ----------------------------Eligibility form----------------------------------------- */}
-            <div className='flex-[0.3]'>
+            <div className='flex-[0.3] hidden md:block'>
             <div>
         <p className='text-[0.85rem] text-red-600 text-center font-semibold mt-[5.5rem]'>Eligibility form</p>
         <p className='text-[2.1rem] text-red-800 tracking-wide font-semibold text-center'>Check your Eligibility </p>

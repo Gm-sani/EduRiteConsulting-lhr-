@@ -37,7 +37,7 @@ export default function Navbar() {
 
   return (
 <div className=''>
-    <div className='flex justify-between px-7 bg-black text-white p-2 '>
+    <div className='lg:flex justify-between md:flex-row px-7 bg-black text-white p-2 '>
       <div className='flex gap-2 '>
         <div> 
             <DialpadIcon className="p-[0.15rem] text-red-500"/>
@@ -78,11 +78,11 @@ export default function Navbar() {
       </div>
     </div>
 {/* ----------------------------------low navbar------------------------------------------------- */}
-<div className='px-12 flex gap-[6.3rem]'>
-    <div  >
-        <img onClick={()=>{navigate("/")}} src={logo} alt="logo" id='logo' className='p-1 cursor-pointer opacity-5 h-[5rem] '/>
+<div className='px-12 lg:flex md:flex-row  gap-[6.3rem]'>
+    <div >
+        <img onClick={()=>{navigate("/")}} src={logo} alt="logo" id='logo' className='p-1 lg:ml-2 min-[320px]:mx-auto  cursor-pointer opacity-5 h-[5rem] '/>
     </div>
-    <div id='lownav' className='flex gap-9 text-[1.15rem] pt-8 font-light opacity-0'>
+    <div id='lownav' className='flex gap-9 lg:text-[1.15rem] min-[415px]:text-sm min-[320px]:text-xs pt-8 font-light opacity-0'>
         <div onClick={()=>{navigate("overview")}}  className='cursor-pointer h-1  '>Comapny Overview </div>
         <div onClick={()=>{navigate("program")}} className='cursor-pointer h-1'>Program</div>
         <div onClick={()=>{navigate("student")}} className='cursor-pointer h-1'>Student Services</div>
@@ -91,7 +91,7 @@ export default function Navbar() {
         {/* <div onClick={()=>{navigate("contact")}} className='cursor-pointer h-1 '>Contact us</div> */}
     </div>
     <div className=''>
-    <div id='lownav' className='flex gap-2 text-[1.15rem] mt-[1.65rem] p-2  font-light opacity-0 hover:gap-3 hover:bg-red-200 shadow-md shadow-red-400 bg-red-600 hover:shadow-lg hover:shadow-red-300 cursor-pointer hover:text-black text-white rounded-full '>
+    <div id='lownav' className='flex gap-2 text-[1.15rem] lg:mt-[1.5rem] min-[320px]:mt-[3rem] min-[320px]:px-24 lg:px-2 lg:mx-2 min-[320px]:mx-4  p-2 font-light opacity-0 hover:gap-3 hover:bg-red-200 shadow-md shadow-red-400 bg-red-600 hover:shadow-lg hover:shadow-red-300 cursor-pointer hover:text-black text-white rounded-full '>
         <div onClick={()=>{navigate("apply")}} className='cursor-pointer h-1 tracking-tight '>Appointment</div>
         <div><ArrowRightAltIcon className=''/></div>
     </div>
