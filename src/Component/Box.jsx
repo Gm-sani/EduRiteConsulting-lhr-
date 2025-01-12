@@ -263,3 +263,25 @@ export function Box1(props) {
       </div>
     )
   }
+
+// ---------------------------immagration container-----------------------------
+  export function Box3(props) {
+    return (
+      <div className='flex lg:flex-row flex-col justify-center lg:my-10 my-5 lg:gap-[22rem] gap-5 '>
+        {/* --------------------Eligibility------------------------ */}
+        <div className='ml-5'>
+        <p className='lg:text-[1.65rem] text-[1.2rem] font-semibold lg:ml-[-1.2rem] pb-3 mt-14'>Eligibility for {props.title}</p>
+          <ul className='list-disc text-slate-700'>
+            <li>Min 18 years of education</li>
+            <li>IELTS Band required – 7.5 or higher</li>
+            <li>Experience: 3 year required</li>
+            <li>Processing time: 12-18 months</li>
+          </ul>
+        </div>
+        {/* ------------------------Flag-------------------------- */}
+       <div>
+          <img src={props.pic} alt="" className='h-[18.5rem] rounded-md'/>
+       </div>
+      </div>
+    )
+  }

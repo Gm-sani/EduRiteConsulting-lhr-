@@ -53,7 +53,7 @@ export default function Navbar() {
 
       <div className='flex '>
       <FmdGoodIcon className="p-[0.15rem] text-red-500"/>
-      <div className='py-[0.15rem] text-[0.90rem] font-semibold tracking-tighter'>29 Civic Center, Second floor, Barkat market, Lahore</div>
+      <div className='py-[0.15rem] text-[0.90rem] font-semibold tracking-tighter'>Head Office: 23, 1st Floor, Gull plaza, Barkat Market, Lahore</div>
       </div>
       <div>
         <div className='flex gap-2 px-2 '>

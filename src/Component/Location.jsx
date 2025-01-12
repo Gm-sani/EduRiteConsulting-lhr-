@@ -25,22 +25,22 @@ export default function Destination2() {
     
     {/* <div onClick={()=>{navigate("ofc2")}} className='px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
         <p className='text-[1rem] font-semibold'>Gulberg Office,Lahore</p>
-    </div>
+    </div> */}
     <div onClick={()=>{navigate("ofc3")}} className='px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
         <p className='text-[1rem] font-semibold'>Islamabad Office</p>
     </div>
-    <div onClick={()=>{navigate("ofc4")}} className='px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
+    {/* <div onClick={()=>{navigate("ofc4")}} className='px-7 py-2 border border-red-600 rounded-2xl hover:bg-red-400 cursor-pointer'>
         <p className='text-[1rem] font-semibold'>Wahdat Road Office</p>
     </div> */}
     </div>
     {/* ------------------------------------BOX-------------------------------------- */}
-    <Box phone="92 300 2488996" email="eduriteconsulting@gmail.com" location="29 Civic Center, Second floor, Barkat market, Lahore" pic={office1}/>
+    {/* <Box phone="92 300 2488996" email="eduriteconsulting@gmail.com" location="29 Civic Center, Second floor, Barkat market, Lahore" pic={office1}/> */}
     <div>
     <Routes>
-        {/* <Route path='ofc1' element={<Box phone="92 300 2488996" email="eduriteconsulting@gmail.com" location="Office No 23 , First floor, Gul Plaza , Barkat Market Lahore, Pakistan." pic={office1}/>}/>
-        <Route path='ofc2' element={<Box phone="92 300 4699719" email="eduriteconsulting@gmail.com" location="F-1, 2nd Floor Khan Arcade Firdous Market,Gulberg III, Lahore" pic={office2}/>}/>
-        <Route path='ofc3' element={<Box phone="92 329 0166667" email="eduriteconsulting@gmail.com" location="Office No 4 First Floor Friends Arcade Street No 87 Near Bank Alflah G-13/1 Islamabad" pic={office3}/>}/>
-        <Route path='ofc4' element={<Box phone="92 305 3330008" email="eduriteconsulting@gmail.com" location=" Office # 10, 2nd Floor, Gohar Centre, Wahdat Road, Lahore" pic={office4}/>}/> */}
+        <Route path='ofc1' element={<Box phone="92 300 2488996" email="eduriteconsulting@gmail.com" location="Head Office: 23, 1st Floor, Gull plaza, Barkat Market, Lahore" pic={office1}/>}/>
+        {/* <Route path='ofc2' element={<Box phone="92 300 4699719" email="eduriteconsulting@gmail.com" location="F-1, 2nd Floor Khan Arcade Firdous Market,Gulberg III, Lahore" pic={office2}/>}/> */}
+        <Route path='ofc3' element={<Box phone="92 329 0166667" email="eduriteconsulting@gmail.com" location="Office # 4, 1st floor, Fortune Arcade, G_13/1 Markaz Islambad" pic={office3}/>}/>
+        {/* <Route path='ofc4' element={<Box phone="92 305 3330008" email="eduriteconsulting@gmail.com" location=" Office # 10, 2nd Floor, Gohar Centre, Wahdat Road, Lahore" pic={office4}/>}/> */}
     </Routes>
     
     </div>

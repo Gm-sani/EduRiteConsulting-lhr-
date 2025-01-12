@@ -1,7 +1,4 @@
 import React from 'react'
-
-
-
 import ContactUs2 from './ContactUs2'
 import Destination2 from './Location'
 import Reviews from './Reviews'
