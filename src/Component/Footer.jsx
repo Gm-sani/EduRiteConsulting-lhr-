@@ -12,7 +12,7 @@ export default function Footer() {
     <div className='md:block hidden'>
     {/* -----------------------------------backpic----------------------------- */}
     <div className='absolute'>
-        <img src={footer} alt="" className='h-[75vh] w-[100vw] opacity-90'/>
+        <img src={footer} alt="" className='h-[80vh] w-[100vw] opacity-90'/>
         </div>
 {/* ---------------------------------Front pic-------------------------------------- */}
     <div className=' absolute'>
@@ -63,9 +63,9 @@ export default function Footer() {
             <ul className="list-disc text-[1rem] text-white mt-5 pl-16">
                 <li onClick={()=>{navigate("overview")}} className='hover:text-red-500 cursor-pointer'>Comapny Overview</li>
                 <li onClick={()=>{navigate("program")}} className='hover:text-red-500 cursor-pointer'>Program</li>
-                <li onClick={()=>{navigate("destination")}} className='hover:text-red-500 cursor-pointer'>Contact Details</li>
+                {/* <li onClick={()=>{navigate("destination")}} className='hover:text-red-500 cursor-pointer'>Contact Details</li> */}
                 <li onClick={()=>{navigate("event")}} className='hover:text-red-500 cursor-pointer'>Event & Media</li>
-                <li onClick={()=>{navigate("contact")}} className='hover:text-red-500 cursor-pointer'>Contact us</li>
+                {/* <li onClick={()=>{navigate("contact")}} className='hover:text-red-500 cursor-pointer'>Contact us</li> */}
                 <li onClick={()=>{navigate("apply")}} className='hover:text-red-500 cursor-pointer'>Appointment</li>
             </ul>
         </div>
@@ -86,13 +86,14 @@ export default function Footer() {
         <div className=''>
             <p className='text-[2rem] text-red-600 font-semibold pl-12'>Our Branch</p> 
             <ul className="list-disc text-[1rem] text-white mt-5 pl-16">
-                <li className='hover:text-red-500 cursor-pointer'>29 Civic Center, Second floor,</li>
+                <li className='hover:text-red-500 cursor-pointer'>Head Office: 23, 1st Floor, Gull plaza,</li>
                 <p className='hover:text-red-500 cursor-pointer'> Barkat market, Lahore</p>
+                <li className='hover:text-red-500 cursor-pointer'>Office : 4 1st Floor Fortune Arcade,</li>
+                <p className='hover:text-red-500 cursor-pointer'>  G13 Markaz , Islamabad</p>
                 <li className='hover:text-red-500 cursor-pointer'>eduriteconsulting@gmail.com</li>
                 <li className='hover:text-red-500 cursor-pointer'>92-300-2488996</li>
                 <li className='hover:text-red-500 cursor-pointer'>92-300-1488995</li>
-                <li className='hover:text-red-500 cursor-pointer'>92-301-8301102</li>
-                <li className='hover:text-red-500 cursor-pointer'>92-313-6627474</li>
+                <li className='hover:text-red-500 cursor-pointer'>92-309-2480468</li>
             
             </ul>
         </div>

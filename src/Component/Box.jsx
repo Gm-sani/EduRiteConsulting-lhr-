@@ -1,4 +1,4 @@
-import React, { useState,useRef } from 'react'
+import React, { useState,useRef, useEffect } from 'react'
 import MailIcon from '@mui/icons-material/Mail';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import AccessTimeFilledIcon from '@mui/icons-material/AccessTimeFilled';
@@ -6,6 +6,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import SchoolIcon from '@mui/icons-material/School';
 import IntroPage2 from './IntroPage2';
 import emailjs from '@emailjs/browser'
+import gsap from 'gsap';
 
 export default function Box(props) {
   return (
@@ -266,10 +267,25 @@ export function Box1(props) {
 
 // ---------------------------immagration container-----------------------------
   export function Box3(props) {
+    useEffect(()=>{
+      const tl =gsap.timeline();
+  
+      tl.to("#txt",{
+          x:20,
+          duration:1,
+      })
+      tl.to("#pic",{
+        x:-20,
+        duration:1,
+    })
+  
+      
+  
+  },[])
     return (
       <div className='flex lg:flex-row flex-col justify-center lg:my-10 my-5 lg:gap-[22rem] gap-5 '>
         {/* --------------------Eligibility------------------------ */}
-        <div className='ml-5'>
+        <div id='txt' className='ml-5'>
         <p className='lg:text-[1.65rem] text-[1.2rem] font-semibold lg:ml-[-1.2rem] pb-3 mt-14'>Eligibility for {props.title}</p>
           <ul className='list-disc text-slate-700'>
             <li>Min 18 years of education</li>
@@ -279,7 +295,7 @@ export function Box1(props) {
           </ul>
         </div>
         {/* ------------------------Flag-------------------------- */}
-       <div>
+       <div id='pic'>
           <img src={props.pic} alt="" className='h-[18.5rem] rounded-md'/>
        </div>
       </div>

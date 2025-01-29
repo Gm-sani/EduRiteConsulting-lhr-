@@ -1,12 +1,12 @@
 import React from 'react'
 import since from './pics/Since.png'
 import hndshk from './pics/handShake.png'
-import intropic from './pics/intropic_1.jpg'
+import intropic from './pics/introGraduatePic.jpg'
 export default function Intro() {
   return (
     <div className=''>
 <div className='min-[310px]:ml-[10rem] min-[310px]:m-12 lg:m-12  '>
-        <div className='flex gap-24 justify-center'>
+        <div className='flex gap-16 justify-center'>
         <div>
         <p className='text-[1rem] text-red-600 tracking-wider font-semibold'>INTRODUCTION</p>
             <p className='text-[2rem] font-semibold mt-4'>EDURITE CONSULTING</p>
@@ -28,7 +28,7 @@ export default function Intro() {
         </div>
 {/* -------------------------------------Right img---------------------------------- */}
         <div>
-            <img src={intropic} alt="intropic" className='h-[35rem] md:block hidden' />
+            <img src={intropic} alt="intropic" className='h-[30rem] w-[40rem] md:block hidden' />
         </div>
         </div>
       

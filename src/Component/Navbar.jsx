@@ -86,7 +86,7 @@ export default function Navbar() {
         <div onClick={()=>{navigate("overview")}}  className='cursor-pointer h-1  '>Comapny Overview </div>
         <div onClick={()=>{navigate("program")}} className='cursor-pointer h-1'>Program</div>
         <div onClick={()=>{navigate("student")}} className='cursor-pointer h-1'>Student Services</div>
-        <div onClick={()=>{navigate("destination")}} className='cursor-pointer h-1'>Contact Details</div>
+        {/* <div onClick={()=>{navigate("destination")}} className='cursor-pointer h-1'>Contact Details</div> */}
         <div onClick={()=>{navigate("event")}} className='cursor-pointer h-1'>Event & Media</div>
         {/* <div onClick={()=>{navigate("contact")}} className='cursor-pointer h-1 '>Contact us</div> */}
     </div>
