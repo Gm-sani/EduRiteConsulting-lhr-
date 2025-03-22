@@ -280,7 +280,6 @@ export function Box1(props) {
     })
   
       
-  
   },[])
     return (
       <div className='flex lg:flex-row flex-col justify-center lg:my-10 my-5 lg:gap-[22rem] gap-5 '>
