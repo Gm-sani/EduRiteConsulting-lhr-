@@ -39,7 +39,7 @@ export default function Destination2() {
     <Routes>
         <Route path='ofc1' element={<Box phone="92 300 2488996" email="eduriteconsulting@gmail.com" location="Head Office: 23, 1st Floor, Gull plaza, Barkat Market, Lahore" pic={office1}/>}/>
         {/* <Route path='ofc2' element={<Box phone="92 300 4699719" email="eduriteconsulting@gmail.com" location="F-1, 2nd Floor Khan Arcade Firdous Market,Gulberg III, Lahore" pic={office2}/>}/> */}
-        <Route path='ofc3' element={<Box phone="92 329 0166667" email="eduriteconsulting@gmail.com" location="Office # 4, 1st floor, Fortune Arcade, G_13/1 Markaz Islambad" pic={office3}/>}/>
+        <Route path='ofc3' element={<Box phone="92 300 2488996" email="eduriteconsulting@gmail.com" location="Office # 4, 1st floor, Fortune Arcade, G_13/1 Markaz Islambad" pic={office3}/>}/>
         {/* <Route path='ofc4' element={<Box phone="92 305 3330008" email="eduriteconsulting@gmail.com" location=" Office # 10, 2nd Floor, Gohar Centre, Wahdat Road, Lahore" pic={office4}/>}/> */}
     </Routes>
     
